@@ -1,1 +1,78 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Homework1</title>
+</head>
+<body>
+    <div class="links">
+        <h2>Absolute URLs</h2>
+        <p><a href="https://www.w3.org/">W3C</a></p>
+        <p><a href="https://www.google.com/">Google</a></p>
+        <a href="default.asp">
+            <img src="smiley.gif" alt="HTML tutorial">
+        </a>
+    </div>
+    <div class="dropdown">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li class="dropdown">
+              <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </li>
+          </ul>
+    </div>
+    <div class="table">
+        <h1>My Beautiful Table</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Country</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John Doe</td>
+                    <td>28</td>
+                    <td>USA</td>
+                </tr>
+                <tr>
+                    <td>Jane Smith</td>
+                    <td>34</td>
+                    <td>UK</td>
+                </tr>
+                <tr>
+                    <td>Emma Brown</td>
+                    <td>22</td>
+                    <td>Canada</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="sideBar">
+        <ul class="sidenav">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+          </ul>
+          
+          <div class="content">
+            <h2>Responsive Sidenav Example</h2>
+            <p>This example use media queries to transform the sidenav to a top navigation bar when the screen size is 900px or less.</p>
+            <p>We have also added a media query for screens that are 400px or less, which will vertically stack and center the navigation links.</p>
+            <p>You will learn more about media queries and responsive web design later in our CSS Tutorial.</p>
+            <h3>Resize the browser window to see the effect.</h3>
+          </div>
+    </div>
+</body>
+</html>
